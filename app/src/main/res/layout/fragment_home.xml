@@ -29,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
                         android:src="@drawable/banner_platzi_conf"/>
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"/>
@@ -44,7 +44,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -66,7 +66,7 @@
                         android:src="@drawable/platzi_conf_2"
                         android:layout_marginTop="20dp"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -82,7 +82,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -104,7 +104,7 @@
                         android:src="@drawable/platzi_conf_3"
                         android:layout_marginTop="20dp"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -120,7 +120,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
