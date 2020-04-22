@@ -82,18 +82,19 @@
                             android:layout_margin="5dp"/>
                         <TextView
                             android:id="@+id/tvDetailConferenceTag"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Tag"
                             android:textSize="12sp"
                             android:textColor="@color/colorPrimary"
-                            android:gravity="center_horizontal"
-                            android:layout_margin="5dp"/>
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/shape_topico"/>
                         <TextView
                             android:id="@+id/tvDetailConferenceDescription"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Detalle de la conferencia"
+                            android:text="@string/inicio_frag_tv_por_que_resp"
                             android:textSize="15sp"
                             android:textColor="@color/colorPrimary"
                             android:gravity="center_horizontal"
