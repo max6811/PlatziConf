@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783018701757",
+    "firebase_url": "https://platziconfapp-c73a0.firebaseio.com",
+    "project_id": "platziconfapp-c73a0",
+    "storage_bucket": "platziconfapp-c73a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783018701757:android:b52e0696c26de24fb418d4",
+        "android_client_info": {
+          "package_name": "com.maxidevastronaut.conf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783018701757-l16s8ap4f6db89muug60d8hoqsfra153.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maxidevastronaut.conf",
+            "certificate_hash": "0ed0f358ef2494e2b7a5a52a0b72fe0521be1087"
+          }
+        },
+        {
+          "client_id": "783018701757-e08psk4ae9mebu5tt515dt5ol9p6ljdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU4guRoF8xqB7RfYg7w4EgR6t9i3qLCXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783018701757-e08psk4ae9mebu5tt515dt5ol9p6ljdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

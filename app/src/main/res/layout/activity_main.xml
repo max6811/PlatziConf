@@ -22,14 +22,14 @@
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 <!--        Agrgando la ruta de navegacion por enciama de nuestro menunav-->
-        <fragment
+        <!--<fragment
             android:id="@+id/fragContent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bnvMenu"
             app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true"
-            />
+            />-->
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bnvMenu"

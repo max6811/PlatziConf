@@ -16,6 +16,10 @@ buildscript {
 
         //Class path de navigation para pasar datos entre fragmentos de manera segura
         classpath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.2.2'
+
+        //To FIRE_STORE
+        classpath 'com.google.gms:google-services:4.3.3'
+
     }
 }
 
