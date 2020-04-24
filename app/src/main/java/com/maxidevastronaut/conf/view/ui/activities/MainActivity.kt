@@ -1,9 +1,9 @@
-package com.maxidevastronaut.conf
+package com.maxidevastronaut.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.gson.JsonObject
+import com.maxidevastronaut.conf.R
 import com.maxidevastronaut.conf.model.Conference
 import com.maxidevastronaut.conf.model.Speaker
 import org.json.JSONArray

@@ -1,4 +1,4 @@
-package com.maxidevastronaut.conf.ui.activities
+package com.maxidevastronaut.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
