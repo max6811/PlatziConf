@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.maxidevastronaut.conf.R
 import com.maxidevastronaut.conf.model.Speaker
@@ -36,7 +37,8 @@ class SpeakersFragment : Fragment(), SpeakerListener {
         viewModel.refresh()
         speakerAdapter = SpeakerAdapter(this)
         rvSpeaker.apply {
-            layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
+            //layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
+            layoutManager =GridLayoutManager(context, 2)//esto para que muestre en dos sections
             adapter = speakerAdapter
         }
         observeViewModel()

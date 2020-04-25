@@ -25,4 +25,5 @@ class MainActivity : AppCompatActivity() {
     fun configNav(){
         NavigationUI.setupWithNavController(bnvMenu, Navigation.findNavController(this, R.id.fragContent))
     }
+
 }
