@@ -18,21 +18,19 @@ class SpeakerAdapter(val speakerListener: SpeakerListener):RecyclerView.Adapter<
         R.layout.item_speaker, parent, false))
     // 3
     override fun getItemCount() = listSpeaker.size
-    // 4
-    override fun onBindViewHolder(holder: SpeakerAdapter.ViewHolder, position: Int) {
-        val speaker = listSpeaker[position] as Speaker
-        holder.tvSpeakerName.text = speaker.name
-        holder.tvSpeakerWork.text = speaker.workplace
-        //usamos libreria Glide para obtener imagen de otras redes
-        Glide.with(holder.itemView.context)
-            .load(speaker.image)//cargamos
-            .apply(RequestOptions.circleCropTransform())//aplanamos y tranformamos
-            .into(holder.ivSpeakerImage)//donde? dentro de nuestro holder
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+            val speaker = listSpeaker[position]
+            holder.tvSpeakerName.text = speaker.name
+            holder.tvSpeakerWork.text = speaker.workplace
+            //usamos libreria Glide para obtener imagen de otras redes
+            Glide.with(holder.itemView.context)
+                .load(speaker.image)//cargamos
+                .apply(RequestOptions.circleCropTransform())//aplanamos y tranformamos
+                .into(holder.ivSpeakerImage)//donde? dentro de nuestro holder
 
-        holder.itemView.setOnClickListener {
-            speakerListener.onSpeakerClicked(speaker, position)
-        }
-
+            holder.itemView.setOnClickListener {
+                speakerListener.onSpeakerClicked(speaker, position)
+            }
     }
     // 5
     fun updateData(data: List<Speaker>){

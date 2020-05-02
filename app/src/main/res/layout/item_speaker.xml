@@ -9,15 +9,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+        <!--
+        Adiciona el atributo ID a cada elemento
+        -->
         <ImageView
             android:id="@+id/ivItemSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/altoImageViewHome"
             android:src="@mipmap/ic_launcher"
             android:layout_margin="10dp"/>
-
         <TextView
             android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
@@ -26,8 +27,7 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textSize="@dimen/tamanioTitulo"
-            android:textColor="@color/colorPrimaryDark"
-            />
+            android:textColor="@color/colorPrimaryDark"/>
         <TextView
             android:id="@+id/tvItemSpeakerWork"
             android:layout_width="match_parent"
@@ -35,10 +35,7 @@
             android:text="Trabajo Expositor"
             android:textSize="@dimen/tamanioSubtitulo"
             android:textColor="@color/colorAccent"
-            android:gravity="center_horizontal"
-            />
-
-
+            android:gravity="center_horizontal" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
