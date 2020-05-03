@@ -1,6 +1,5 @@
 package com.maxidevastronaut.conf.model
 
-import android.accounts.AuthenticatorDescription
 import java.io.Serializable
 import java.util.*
 

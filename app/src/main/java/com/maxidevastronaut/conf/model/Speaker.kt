@@ -1,6 +1,8 @@
 package com.maxidevastronaut.conf.model
 
-class Speaker {
+import java.io.Serializable
+
+class Speaker: Serializable {
     //variables mutables
     var name = ""
     var jobtitle = ""

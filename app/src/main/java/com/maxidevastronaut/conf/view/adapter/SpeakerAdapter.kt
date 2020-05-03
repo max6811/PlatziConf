@@ -11,10 +11,11 @@ import com.bumptech.glide.request.RequestOptions
 import com.maxidevastronaut.conf.R
 import com.maxidevastronaut.conf.model.Speaker
 
-class SpeakerAdapter(val speakerListener: SpeakerListener):RecyclerView.Adapter<SpeakerAdapter.ViewHolder>(){
+class SpeakerAdapter(val speakerListener: SpeakerListener): RecyclerView.Adapter<SpeakerAdapter.ViewHolder>(){
     var listSpeaker = ArrayList<Speaker>()
     // 1
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)= ViewHolder(LayoutInflater.from(parent.context).inflate(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)= ViewHolder(
+        LayoutInflater.from(parent.context).inflate(
         R.layout.item_speaker, parent, false))
     // 3
     override fun getItemCount() = listSpeaker.size

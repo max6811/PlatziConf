@@ -37,7 +37,7 @@ class FirestoreService{
             .get()
             .addOnSuccessListener { result ->
                 for(doc in result){
-                    //todo los speakers de la collection fs
+                    //todo los schedule de la collection fs
                     val list = result.toObjects(Conference::class.java)
                     callback.onSuccess(list)
                     break

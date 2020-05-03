@@ -1,12 +1,10 @@
 package com.maxidevastronaut.conf.viewmodel
 
-
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.maxidevastronaut.conf.model.Conference
 import com.maxidevastronaut.conf.network.Callback
 import com.maxidevastronaut.conf.network.FirestoreService
-import java.lang.Exception
 
 
 //encarga de comunicar con nuestra activity
